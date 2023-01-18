@@ -1,0 +1,76 @@
+/* hw 17 and additions */
+header{
+    display: flex;
+    justify-content: space-between; /* put even amount of space between the items */
+    height: 125px;
+}
+
+.flex{
+    display: flex;
+}
+
+.logo{
+    text-align: center; 
+    width: 13%;
+    padding: 1%;  
+}
+
+nav{
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #FCFCFC;
+    border-color: #CDE3E4;
+}
+
+nav p{
+    padding-left: 15px;
+    margin-left: 10px;
+    margin-right: 5px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+ul.flex{
+    width: 50%;
+    margin-right: 20px;
+    justify-content: end; /* move all content allt he way to right in that flex box*/
+}
+
+
+/* hw 18 */
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexContainer skill_1{
+    width: 33%;
+    margin: 40px;
+    padding: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5D726F;
+}
+
+.flexContainer skill_1 h3{
+    font-size: 40px;
+}
+
+.flexContainer skill_2{
+    width: 33%;
+    margin: 40px;
+    padding: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5D726F;
+}
+
+.flexContainer skill_3{
+    width: 33%;
+    margin: 40px;
+    padding: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5D726F;
+}
