@@ -53,14 +53,16 @@ ul.flex{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     width: 925px;
-    height: 53px;
+    height: auto;
+    line-height: 20px;
 }
 
 .text_2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     width: 925px;
-    height: 53px;
+    height: auto;
+    line-height: 20px;
 }
 
 .title{
@@ -175,6 +177,7 @@ button{
     background-color: #f1f3f4;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    line-height: 25px;
 }
 
 /* if i was using flex 
