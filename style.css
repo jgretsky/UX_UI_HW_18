@@ -20,7 +20,6 @@ nav{
     padding: 1%;
     text-align: center;
     justify-content: space-between;
-    background-color: #FCFCFC;
     border-color: #CDE3E4;
 }
 
@@ -47,11 +46,13 @@ ul.flex{
     height: fit-content;
     padding: 5px;
     position: relative;
+    margin: 30px;
 }
 
 .intro_1{
     display: flex;
     align-items: center;
+    background-color: #CDE3E4;
 }
 
 .text_1{
@@ -64,15 +65,15 @@ ul.flex{
     line-height: 40px;
     font-weight: bold;
     font-size: 30px;
-    color:#2675C5;
+    color:#4E5F5D;
 }
 
 .text_2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    width: 925px;
     height: auto;
-    line-height: 20px;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 15px;
 }
 
 .title{
@@ -80,6 +81,28 @@ ul.flex{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #4E5F5D; 
 }
+
+/* Ponder */
+
+.ponder{
+    height: fit-content;
+    padding: 5px;
+    position: relative;
+}
+
+.header_p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4E5F5D; 
+}
+
+.ponder_list{
+    margin: 30px;
+    text-align:left;
+    list-style-position:inside;
+}
+
+/* SKills */
 
 .mySkills{
     height: auto;
@@ -119,6 +142,8 @@ button{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #CDE3E4;
 }
+
+/* Facts*/
 
 .fact_grid{
     display: grid;
