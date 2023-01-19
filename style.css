@@ -109,6 +109,72 @@ button{
 
 .fact_grid{
     display: grid;
+    grid-template-columns:auto auto auto ;
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 10px;
+    row-gap: 1em;
+}
+
+ /* setting up the grid rows
+ When setting up an explicit grid or defining the sizing for automatically created rows or columns we may want to give tracks a minimum size, 
+    but also ensure they expand to fit any content that is added.
+    minmax -> This means automatically created rows will be a minimum of 100 pixels tall, and a maximum of auto. 
+    Using auto means that the size will look at the content size and will stretch to give space for the tallest item in a cell, 
+    in this row.
+    */
+
+.Fact1{
+    grid-area: Fact1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.Fact2{
+    grid-area:Fact2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.Fact3{
+    grid-area: Fact3;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.Fact4{
+    grid-area: Fact4;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start:2;
+    grid-row-end: 3;
+}
+
+.Fact5{
+    grid-area: Fact5;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start:2;
+    grid-row-end: 3;
+}
+
+.Fact6{
+    grid-area: Fact6;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start:2;
+    grid-row-end: 3;
+}
+
+.Fstyle{
+    background-color: #f1f3f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 /* if i was using flex 
