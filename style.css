@@ -42,35 +42,114 @@ ul.flex{
 
 
 /* hw 18 */
+
+.intro{
+    height: fit-content;
+    padding: 5px;
+    position: relative;
+}
+
+.text_1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 925px;
+    height: 53px;
+}
+
+.text_2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 925px;
+    height: 53px;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5D726F; 
+}
+
+.mySkills{
+    height: auto;
+}
+
 .flexContainer{
     display: flex;
     flex-direction: row;
+    height: auto;
+    justify-content: space-between; /* put even amount of space between the items */
 }
 
-.flexContainer skill_1{
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 33%;
     margin: 40px;
     padding: 1px;
+}
+
+.skill h3{
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #5D726F;
 }
 
-.flexContainer skill_1 h3{
-    font-size: 40px;
-}
-
-.flexContainer skill_2{
-    width: 33%;
-    margin: 40px;
-    padding: 1px;
+.skill p{
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #5D726F;
 }
 
-.flexContainer skill_3{
-    width: 33%;
-    margin: 40px;
-    padding: 1px;
+button{
+    justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #5D726F;
+    background-color: #CDE3E4;
+}
+
+.fact_grid{
+    display: grid;
+}
+
+/* if i was using flex 
+.fact_grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Fact{
+    width: 265px;
+    height: 265px;
+    background-color: #CDE3E4;
+}
+*/
+
+
+
+/* footer */ 
+.footloc{
+    position: relative;
+    min-height: 100vh;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0%;
+    background-color: #CDE3E4;
+    padding:5%;
+    width: 100%;
+    height: fit-content;
+}
+
+footer ul li{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    white-space: nowrap;
 }
