@@ -49,12 +49,22 @@ ul.flex{
     position: relative;
 }
 
+.intro_1{
+    display: flex;
+    align-items: center;
+}
+
 .text_1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
     width: 925px;
     height: auto;
-    line-height: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 30px;
+    color:#2675C5;
 }
 
 .text_2{
@@ -68,7 +78,7 @@ ul.flex{
 .title{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #5D726F; 
+    color: #4E5F5D; 
 }
 
 .mySkills{
@@ -87,20 +97,21 @@ ul.flex{
     flex-direction: column;
     align-items: center;
     width: 33%;
-    margin: 40px;
+    margin: 30px;
     padding: 1px;
+    background-color:#CDE3E4 ;
 }
 
 .skill h3{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #5D726F;
+    color: #4E5F5D;
 }
 
 .skill p{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #5D726F;
+    color: #4E5F5D;
 }
 
 button{
@@ -178,6 +189,7 @@ button{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     line-height: 25px;
+    font-weight: bold;
 }
 
 /* if i was using flex 
