@@ -290,6 +290,16 @@ The @media rule is used in media queries to apply different styles for different
         width: 100%;
     }
 
+    .intro_1{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .text_1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
     .flexContainer{
         width: 100%;
     }
