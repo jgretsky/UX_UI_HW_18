@@ -79,21 +79,21 @@ ul.flex{
 .title{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #4E5F5D; 
+    text-decoration: underline;
 }
 
 /* Ponder */
 
 .ponder{
     height: fit-content;
-    padding: 5px;
+    padding: 15px;
     position: relative;
 }
 
 .header_p{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #4E5F5D; 
+    font-weight: bold; 
 }
 
 .ponder_list{
@@ -106,6 +106,7 @@ ul.flex{
 
 .mySkills{
     height: auto;
+    padding: 10px;
 }
 
 .flexContainer{
@@ -138,12 +139,24 @@ ul.flex{
 }
 
 button{
-    justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #CDE3E4;
+    font-weight: bold;
 }
 
 /* Facts*/
+
+.Fun_Facts {
+    margin: 5px;
+    padding: 15px;
+}
+
+.Fun_Facts h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
 
 .fact_grid{
     display: grid;
@@ -258,4 +271,35 @@ footer ul li{
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     white-space: nowrap;
+}
+
+/* media query - 
+The @media rule is used in media queries to apply different styles for different media types/devices.*/
+
+@media only screen and (max-width: 600){
+    body{
+        display: flex;
+        flex-direction: columns;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .intro{
+        width: 100%;
+    }
+
+    .flexContainer{
+        width: 100%;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    .fact_grid{
+        grid-template-columns:auto;
+         grid-auto-rows: minmax(100px, auto);
+    }
 }
